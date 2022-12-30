@@ -105,3 +105,7 @@ body {
 .demo__item_type_skew:hover .demo__icon {
   transform: skew(20deg, 0);
 }
+
+.demo__item_type_translate .demo__icon {
+  transition: transform 0.4s ease-out;
+}
